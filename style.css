@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+body {
+    background-color: #1DA1F2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    width: 200px;
+    height: 200px;
+    margin: 75% auto;
+    position: relative;
+   
+}
+.content .fa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    color: white;
+    font-size: 6rem;
+}
+.content a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+}
+.footer-container {
+    display: inline-block;
+}
+footer p {
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
